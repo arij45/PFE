@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_acceuil"
+            android:title="Acceuil"
+            android:icon="@drawable/ic_home">
+        </item>
+    </group>
+
+    <item android:title="Comminuquer"
+        android:id="@+id/comminuquer">
+        <menu>
+            <item android:id="@+id/nav_CodeQR"
+                android:title="Code QR"
+                android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+              >
+            </item>
+
+            <item android:id="@+id/nav_reclamation"
+                android:title="Reclamation"
+                android:icon="@drawable/ic_baseline_bus_alert_24"
+                >
+            </item>
+
+            <item android:id="@+id/nav_deconnexion"
+                android:title="Déconnexion"
+                android:icon="@drawable/ic_logout"
+               >
+            </item>
+            <item android:id="@+id/nav_propos"
+                android:title="A propos"
+                android:icon="@drawable/ic_aprops"
+              >
+            </item>
+
+        </menu>
+    </item>
+
+</menu>

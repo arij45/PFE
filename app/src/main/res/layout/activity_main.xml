@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/buscontroleur" />
+
+    <EditText
+        android:id="@+id/at_password"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_password"
+        android:ems="10"
+        android:hint=" Code Secret "
+        android:textCursorDrawable="@color/orange"
+        android:inputType="textPassword"
+        android:textColor="#2D3A42"
+        android:textColorHint="#FF9800" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:background="@drawable/button_rectangle_pink"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/at_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:backgroundTint="#255DA2"
+        android:text="Accés"
+
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:theme="@style/progressBarOrange"
+        tools:ignore="missingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</RelativeLayout>

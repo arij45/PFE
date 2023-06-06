@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppController" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">#000</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E17C7B</item>
+        <item name="colorSecondaryVariant">#002FA7</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Regular">
+        <item name="android:fontFamily">@font/lobster</item>
+        <item name="fontFamily">@font/lobster</item>
+    </style>
+    <style name="TextAppearance44">
+        <item name="android:textColor">@color/grayy</item>
+    </style>
+
+    <style name="NavigationView"  parent="Base.Theme.AppCompat">
+        <item name="android:listDivider">@color/gray</item>
+    </style>
+
+    <style name="progressBarOrange" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="NavigationDrawer" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">@color/grayyy</item>
+    </style>
+
+</resources>
