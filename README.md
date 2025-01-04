@@ -4,7 +4,7 @@ These are all the screenshots of the mobile application 'WiniCari
 ![2](https://github.com/user-attachments/assets/9c0e69c3-11d8-4f51-8ac7-c41d46ce3a02)
 ![3](https://github.com/user-attachments/assets/35ed695d-4b5a-4e26-9b3f-f77d525b19e8)
 ![5](https://github.com/user-attachments/assets/b864f2e1-59f9-456e-8607-eb05e95aa50a)
-![6](https://github.com/user-attachments/assets/9fd8fa47-3093-4137-b7de-cddec0f61064)
+![6](https://github.com/user-attachments/assets/048ba650-4a73-4182-a4a3-05443430bc54)
 ![7](https://github.com/user-attachments/assets/06e577cf-b046-4875-886e-01624820cc7d)
 ![8](https://github.com/user-attachments/assets/11e9ecab-4f82-4d49-87d7-85468bca6329)
 ![9](https://github.com/user-attachments/assets/f30006c9-080b-43c2-98b6-3397dbef4292)
